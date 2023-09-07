@@ -1,0 +1,19 @@
+.App-header {
+    margin: 2rem 2rem 3rem;
+}
+a {
+    color: inherit;
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+.grey {
+    color: grey;
+}
+.yellow {
+    color: var(--yellow);
+}
+.small {
+    font-size: 1rem;
+    font-weight: 200; 
+}

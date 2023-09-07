@@ -1,9 +1,9 @@
-import React from 'react'
+import './Header.css';
 
 export default function Header() {
   return (
     <header className="App-header">
-    <h1>Torrie.ai</h1>   
+    <a href='https://torre.ai' className='logo'>Torre<span className='yellow'>.ai</span><span className='grey small'>alpha</span></a>   
     </header>
   )
 }

@@ -1,0 +1,15 @@
+.drop-down-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    left: 25%;
+    list-style: none;
+    background-color: var(--grey);
+}
+
+.drop-down-list {
+    border-bottom: 1px solid var(--navy-blue);
+    padding: 1rem;
+}

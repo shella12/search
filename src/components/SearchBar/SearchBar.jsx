@@ -28,7 +28,7 @@ export default function SearchBar() {
   }
 
   return (
-    <>
+    <div className='search-container'>
     <form>
         <input type='text' placeholder='Enter the name to search' value = {value} className='search-bar' onChange={onChangeHandler}/>
         <button className="input-submit" type="submit" onClick={(e) => onClickHandler(e)}>
@@ -36,6 +36,6 @@ export default function SearchBar() {
         </button>
     </form>
     <DropDown data={data} value={value}/>
-    </>
+    </div>
   )
 }

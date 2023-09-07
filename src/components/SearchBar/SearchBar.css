@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    width: 50%;
+    max-width: 40rem;
+    margin: auto;
+  }
+  
+  .input-submit,
+  .search-bar {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--off-white);
+  }
+  
+  .search-bar {
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .search-bar::placeholder {
+    color: var(--off-white);
+  }
+  
+  .input-submit {
+    font-size: 1.6rem;
+  }

@@ -7,10 +7,10 @@
 }
 
 :root {
-  --navy-blue: #252B48;
+  --navy-blue: #252b48;
   --grey: #445069;
-  --green: #5B9A8B;
-  --yellow: #F7E987;
+  --green: #5b9a8b;
+  --yellow: #f7e987;
 }
 
 html {
@@ -18,3 +18,12 @@ html {
   color: #fff;
 }
 
+.empty-text {
+  text-align: center;
+  margin-top: 10%;
+  color: #e0d9d99a;
+}
+
+.heart-icon {
+  font-size: 1.5rem;
+}

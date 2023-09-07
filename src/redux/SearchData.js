@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const API = "http://localhost:3000/users";
+const API = "http://localhost:3000/api/users";
 const GET_DATA = "SEARCH/SearchData/GET_SEARCH_DATA";
 const initialState = {
   data: null,
